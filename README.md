@@ -22,8 +22,7 @@ Marcação de consultas costuma esbarrar em filas de atendimento telefônico, ho
 1. **Camada de conversação (LLM + Agente)**: modelo de linguagem responsável por interpretar a mensagem do paciente e decidir a próxima ação. Orquestração feita com LangChain ou LangGraph.
    Referência: https://python.langchain.com/docs/introduction/
 
-2. **Camada de ferramentas (tools)**: funções que o agente pode chamar, como consultar agenda, criar evento e cancelar evento. Integração com Google Calendar API ou sistema próprio de agendamento.
-   Referência: https://developers.google.com/calendar/api/guides/overview
+2. **Camada de ferramentas (tools)**: funções que o agente pode chamar, como consultar agenda, criar evento e cancelar evento.
 
 3. **Camada de dados**: banco de dados com pacientes, médicos, especialidades e horários disponíveis, implementado em PostgreSQL.
 
