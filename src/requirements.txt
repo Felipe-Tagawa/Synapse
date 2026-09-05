@@ -1,0 +1,6 @@
+langgraph
+langchain
+langchain-ollama
+python-dotenv
+sqlalchemy
+psycopg2-binary
